@@ -1,0 +1,69 @@
+.container{
+	font-family: "Courier New",serif;
+	font-weight: bold;
+	background-size: 100%;
+}
+/*targetting top div*/
+.top{
+		background-color: #EAEAEA;
+		margin-top: 0px;
+}
+.logo{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.logo img{
+	width: 50px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar ul li a:hover{
+	color: #971B1B;
+}
+	
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+}
+
+.navbar ul li{
+	padding: 15px;
+	display: inline;
+}
+
+.navbar ul{
+	list-style-type:none;
+}
+
+.active{
+	color: red;
+	text-decoration: underline;
+}
+
+.mid form{
+	font-family: serif;
+	display: flex;
+	justify-content: center;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+}
+
+.bottom img{
+	width: 90px;
+	display: inline;
+	margin: 30px;	
+}
+
+hr{
+	border-top: 3px solid black;
+}

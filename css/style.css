@@ -1,0 +1,128 @@
+.container{
+	font-family: "Courier New",serif;
+	font-weight: bold;
+	background-size: 100%;
+}
+/*targetting logo div*/
+.logo{
+	margin: 30px;
+	text-align: center;
+}
+
+.logo img{
+	width: 50px;
+}
+
+.navbar{
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar ul li a:hover{
+	color: #971B1B;
+}
+	
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+}
+
+.navbar ul li{
+	padding: 15px;
+	display: inline;
+}
+
+.navbar ul{
+	list-style-type:none;
+}
+
+.active{
+	color: red;
+	text-decoration: underline;
+}
+
+
+.image {
+	height: 550px;
+	width: 413px;
+	position: relative;
+}
+
+
+.secimg{
+	position: absolute;
+	top:0px;
+	left:0px;
+	opacity: 0;
+	transition:opacity 1s;
+}
+
+.secimg:hover{
+	opacity: 1;
+}
+
+.mid{
+	display: flex;
+	justify-content: space-around;
+}
+
+.change::after{
+	content: 'Gallery';
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.change:hover::after{
+	opacity: 0.5;
+}
+
+.chan::after{
+	content: 'Blog';
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.chan:hover::after{
+	opacity: 0.5;
+}
+
+.bottom{
+	display: flex;
+	justify-content: center;
+}
+
+.bottom img{
+	width: 50px;
+	display: inline;
+	margin: 10px;
+	
+}
+
+hr{
+	border-top: 3px solid black;
+}
+

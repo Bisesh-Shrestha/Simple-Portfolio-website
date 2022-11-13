@@ -1,0 +1,101 @@
+.container{
+	font-family: "Courier New",serif;
+	font-weight: bold;
+	background-size: 100%;
+}
+
+.logo{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.logo img{
+	width: 50px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-around;
+}
+
+.navbar ul li a:hover{
+	color: #971B1B;
+}
+	
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 7px;
+}
+
+.navbar ul li{
+	padding: 15px;
+	display: inline;
+}
+
+.navbar ul{
+	list-style-type:none;
+}
+
+.active{
+	color: red;
+	text-decoration: underline;
+}
+
+.cvpic{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+p{
+	display: flex;
+	justify-content: center;
+	font-family: Fixedsys,serif;
+}
+
+h1{
+	display: flex;;
+	justify-content: center;
+	font-family: Verdana, serif;
+	text-decoration:underline;
+}
+
+.skill{
+	background-color: #7B7878;
+	padding-bottom: 20px;
+}
+
+#knowme{
+	margin: 10px 50px;
+}
+
+#knowme img{
+	padding: 5px;
+	transition: 0.5s;
+}
+
+#knowme img:hover{
+	transform: scale(1.1);
+}
+
+.bottom {
+	display: flex;
+	justify-content: center;
+}
+
+.bottom img{
+	width: 50px;
+	display: inline;
+	margin: 20px;	
+}
+
+.knowme h1{
+	font-size: 50px;
+}
+
+hr{
+	border-top: 3px solid black;
+}
+

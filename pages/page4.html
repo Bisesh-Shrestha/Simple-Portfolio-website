@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact | Bisesh</title>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+	<style type="text/css">
+		h2{
+			margin-top: 50px;
+			text-align: center;
+		}
+		h1{
+			font-size: 50px;
+		}
+	</style>
+</head>
+<body background="../pictures/contactbg.jpg">
+	<div class="container">
+		<div class="top">
+			<div class="logo">
+				<a href="../index.html"><img src="../logo.png"></a>
+				<hr width="50%" noshade>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="page1.html">CV</a></li>
+					<li><a href="page2.html">Blog</a></li>
+					<li><a href="page3.html">Research</a></li>
+					<li class="active"><a href="page4.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mid">	
+			<h1 style="text-align: center">Send me your opinion</h1>
+			<form onsubmit="record()">
+				<table>
+					<tr>
+						<td>Name </td>
+					</tr>
+					<tr>
+						<td><input id="name" type="text" name="name" placeholder="Your Name" ></td>
+					</tr>
+					<tr>
+						<td>E-mail </td>
+						<td>Number (optional)</td>
+					</tr>
+					<tr>
+						<td> <input id="email" type="text" name="email" placeholder="E-mail"></td>
+						<td>
+
+							<input id="number" type="text" name="number" placeholder="Number">
+						</td>
+					</tr>
+					<tr>
+						<td>Comment </td>
+
+					</tr>
+					<tr>
+						<td colspan="2"><textarea name="comment" rows="5" cols="44" placeholder="Write Your Comment" ></textarea></td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Submit" name="submit">
+						</td>
+					</tr>
+				</table>
+			</form>	
+			<h2>
+				FOLLOW ME ON:
+			</h2>
+		</div>
+		<div class="bottom">
+			<a href="https://www.instagram.com/bisesh_xtha/"><img src="../pictures/insta.png"></a>
+			<a href="https://twitter.com/BiseshXV"><img src="../pictures/twitter.png"></a>
+			<a href="https://www.reddit.com/user/shadyxvy"><img src="../pictures/reddit.png"></a>
+			<a href="mailto:np01cp4a190115@islingtoncollege.edu.np?Subject=Comment"><img src="../pictures/gmail.png"></a>		
+		</div>	</div>
+	<script>
+		function record(){
+			var name = document.getElementById('name')
+			var email = document.getElementById('email')
+			var number = document.getElementById('number')
+			var comment = document.getElementById('comment')
+			if (name.value==""||email.value==""||comment==""){
+				alert("Please enter value in the required field");
+			}
+			else{
+				alert(" Thank you for your feedback");	
+			}
+		}
+	</script>
+</body>
+</html>

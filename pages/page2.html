@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog | Bisesh</title>
+	<link rel="stylesheet" type="text/css" href="../css/blog.css">
+	<style type="text/css">
+		.first::first-letter{
+			color: red;
+			font-size: 40px
+		}
+		h1{
+			font-size: 50px; 
+			margin: 20px;
+		}
+	</style>
+</head>
+<body background="../pictures/blogbg.jpg";>
+	<div class="container">
+		<div class="top">
+			<div class="logo">
+				<a href="../index.html"><img src="../logo.png"></a>
+				<hr width="50%" noshade>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="page1.html">CV</a></li>
+					<li class="active"><a href="page2.html">Blog</a></li>
+					<li><a href="page3.html">Research</a></li>
+					<li><a href="page4.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="mid">			
+			<h1>Technology</h1>
+			<p class="first">
+				Technology is changing drastically over the past few years. We have reached to places where mankind 30 years ago thought was impossible. We have been able to improve our live through technology. Although it not all sunshine and rainbows, the positive impact technology has had on our live is undeniable. Just in the last decade we have been able to accomplish and reach new grounds that was thought to be impossible before. we took the picture of the blackhole for the first time, we got self-driving cars, augmented reality has improved drastically, etc. These are the progress made possible through technology on a large scale. It has also affected us on an individual scale.
+			</p>
+			<p>
+				Technology plays a very big part in my life. I am a computer student, so even for basic assignments I need to have a laptop and an internet connection. Because of technological progress I can connect with my friends whenever I want. I can talk to my relatives, who are abroad, very easily. It has made my life very convenient. I can watch movies whenever I want and order food from my home. These are all due to technological advancement. Most of my day goes by looking at my laptop screen doing my coursework or watching movies. It has been my source of entertainment. It has become a part of my life and I don’t think I will be able to function normally if it was taken away from me. Everything has become very convenient and easy. I listen to music every time I can. Getting latest music from my favorite artists wouldn’t be possible without Spotify or the internet and watching “Rick and Morty” when I’m bored wouldn’t be possible without Netflix. 
+			</p>
+			<br>
+			<div class="techimg">
+				<img src="../pictures/tech.jpg">
+				<img src="../pictures/tech2.jpg">
+			</div>
+			<br>
+			<p>
+				In this modern age we have access to so much information and it can be found easily and free of cost. Google and YouTube have helped me numerous times. Although the access to information can be quite handy, we can fall in a rabbit hole of the internet. I have found myself watching pointless videos and wasting time. There is abundance of information in the internet and it can be quite difficult sometimes to identify whether it is reliable or not. We need to be able to identify whether the sources are reliable or not. Lot of people have gotten wrong information from the internet and believed it to be facts. This can sometimes take a dangerous route like ‘Antivax movement’.
+			</p>
+			<div style="font-size:30px; text-align: center; margin-top: 80px;" id="change">I fear the day when the technology overlaps with our humanity. The world will only have a generation of idiots.</div>
+			<p style="text-align: center;">Who Said it? (Steve Jobs / Einstein / Nikola Tesla / Kendrick Lamar)</p>
+			<p style="text-align: center;"><button onclick="modify()"> ANSWER </button></p>
+		</div>
+		<div class="bottom">
+			<a href="https://www.instagram.com/bisesh_xtha/"><img src="../pictures/insta.png"></a>
+			<a href="https://twitter.com/BiseshXV"><img src="../pictures/twitter.png"></a>
+			<a href="https://www.reddit.com/user/shadyxvy"><img src="../pictures/reddit.png"></a>
+			<a href="mailto:np01cp4a190115@islingtoncollege.edu.np?Subject=Comment"><img src="../pictures/gmail.png"></a>		
+		</div>
+	<script>
+		function modify(){
+			var a= document.getElementById("change");
+			if (a.innerHTML==="I fear the day when the technology overlaps with our humanity. The world will only have a generation of idiots.") {
+				a.innerHTML="Einstein!!";
+			}
+			else{
+				a.innerHTML="I fear the day when the technology overlaps with our humanity. The world will only have a generation of idiots.";
+			}
+		}
+	</script>
+</body>
+</html>
